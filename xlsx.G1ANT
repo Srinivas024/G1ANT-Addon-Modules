@@ -1,0 +1,16 @@
+addon xlxs version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+xlsx.open C:\Users\User\Desktop\test.xlsx accessmode readwrite createifnotexist true result ♥id1
+xlsx.open C:\Users\User\Desktop\test1.xlsx accessmode read createifnotexist true result ♥id2
+xlsx.switch id ♥id1
+xlsx.setvalue value hello row 1 colindex 1
+xlsx.getvalue row 1 colindex 1
+dialog ♥result
+xlsx.select row1 1 column1 A row2 2 column2 A
+xlsx.copy
+xlsx.select row1 3 column1 A row2 4 column2 A
+xlsx.paste
+xlsx.find hello resultcolumn ♥c resultrow ♥r
+dialog ‴♥c ♥r‴
+xlsx.close

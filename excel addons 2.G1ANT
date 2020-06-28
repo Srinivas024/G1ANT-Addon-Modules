@@ -1,0 +1,17 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open
+window ✱excel
+excel.setvalue ‴holaaaa‴ row 1 colindex 2
+excel.duplicaterow source 1 destination 10
+excel.getvalue row 10  colindex 2 result ♥var1
+dialog ♥var1
+excel.insertcolumn colindex 1 where after
+delay 2
+excel.insertrow row 2 where below 
+delay 2
+excel.removecolumn colindex 1
+delay 2
+excel.removerow row 2
+

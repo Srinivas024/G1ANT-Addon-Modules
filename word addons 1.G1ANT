@@ -1,0 +1,9 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+word.open
+window ✱word
+♥text= ‴hello every one this is a program og g1ant automation software‴
+word.inserttext ♥text replacealltext true
+word.replace from og to of wholewords true
+word.close

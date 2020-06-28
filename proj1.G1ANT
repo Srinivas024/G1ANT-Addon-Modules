@@ -1,0 +1,13 @@
+addon ui version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+ui.click ‴/descendant::ui[@id='303']/descendant::ui[@id='1504']/ui[@name='Speakers: 50%']‴
+ui.gettext ‴/descendant::ui[@id='303']/descendant::ui[@id='1504']/ui[@name='Speakers: 50%']‴
+dialog ♥result
+delay 1
+ui.keydown value 10
+delay 1
+dialog ‴lets get the date and time from the current system‴
+ui.click ‴/descendant::ui[@id='303']/ui[@id='303']‴
+ui.gettext ‴/descendant::ui[@id='303']/ui[@id='303']‴
+dialog ♥result
